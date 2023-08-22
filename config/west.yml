@@ -9,7 +9,7 @@ manifest:
 #      remote: zmkfirmware
 #      revision: main
       remote: joelspadin
-      revision: 4ec46cd2070b8bb8a92116409629ad69cb91c10d
+      revision: send-string-behavior
       import: app/west.yml
   self:
     path: config
