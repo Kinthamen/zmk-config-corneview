@@ -67,12 +67,9 @@
     };
 
     behaviors {
-        hello_world: hello_world {
-            compatible = "zmk,behavior-send-string";
-            label = "ZSS_hello_world";
-            #binding-cells = <0>;
-            text = "Hello, world!";
-        };
+        ZMK_SEND_STRING(hello_world, "Hello, world!",
+            charmap = <&charmap_us>;
+        )
 
         td_multi_mac: tap_dance_multi_mac {
             compatible = "zmk,behavior-tap-dance";
