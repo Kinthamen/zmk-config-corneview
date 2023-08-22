@@ -68,7 +68,7 @@
 
     behaviors {
         hello_world: hello_world {
-            compatible = "zmk,behavior-send-strind";
+            compatible = "zmk,behavior-send-string";
             label = "ZSS_hello_world";
             #binding-cells = <0>;
             text = "Hello, world!";
