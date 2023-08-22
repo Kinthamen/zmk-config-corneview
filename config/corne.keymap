@@ -36,12 +36,12 @@
     //};
 
     macros {
-        hi_nl: hi_nl {
-            label = "hi_nl";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&hello_world>, <&macro_tap &kp SPACE>, <&hello_world>;
-        };
+//        hi_nl: hi_nl {
+//            label = "hi_nl";
+//            compatible = "zmk,behavior-macro";
+//            #binding-cells = <0>;
+//            bindings = <&hello_world>, <&macro_tap &kp SPACE>, <&hello_world>;
+//        };
 
         spotlight: spotlight {
             label = "spotlight";
@@ -156,7 +156,7 @@
             bindings =<
                 &none      &bt BT_CLR      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3        &none      &none       &none              &none       &to WIN      &none
                 &none      &kp F1          &kp F2            &kp F3            &kp F4            &kp F5              &kp 6      &kp F7      &kp F8             &kp F9      &kp F10      &none
-                &none      &kp F11         &none             &none             &bootloader       &none               &hi_nl      &none       &none              &none       &kp F12      &none
+                &none      &kp F11         &none             &none             &bootloader       &none               &hello_world      &none       &none              &none       &kp F12      &none
                                                              &kp LCTRL         &kp LALT          &sm LGUI SPACE      &none      &none       &td_multi_mac      
             >;
         };
